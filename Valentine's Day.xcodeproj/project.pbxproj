@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A534178D279DF8740068AC55 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A534178C279DF8730068AC55 /* DrawingView.swift */; };
+		A534178E279DF8740068AC55 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A534178C279DF8730068AC55 /* DrawingView.swift */; };
+		A534178F279DF8740068AC55 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A534178C279DF8730068AC55 /* DrawingView.swift */; };
+		A5341790279DF8740068AC55 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A534178C279DF8730068AC55 /* DrawingView.swift */; };
+		A5341792279DF8C60068AC55 /* ValentineHeart.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5341791279DF8C60068AC55 /* ValentineHeart.swift */; };
+		A5341793279DF8C60068AC55 /* ValentineHeart.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5341791279DF8C60068AC55 /* ValentineHeart.swift */; };
+		A5341794279DF8C60068AC55 /* ValentineHeart.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5341791279DF8C60068AC55 /* ValentineHeart.swift */; };
+		A5341795279DF8C60068AC55 /* ValentineHeart.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5341791279DF8C60068AC55 /* ValentineHeart.swift */; };
+		A5341797279DF9330068AC55 /* BoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5341796279DF9330068AC55 /* BoundingBox.swift */; };
+		A5341798279DF9330068AC55 /* BoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5341796279DF9330068AC55 /* BoundingBox.swift */; };
+		A5341799279DF9330068AC55 /* BoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5341796279DF9330068AC55 /* BoundingBox.swift */; };
+		A534179A279DF9330068AC55 /* BoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5341796279DF9330068AC55 /* BoundingBox.swift */; };
+		A5E1F4D227A08DA800A1B17D /* MainDisplayParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E1F4D127A08DA800A1B17D /* MainDisplayParameters.swift */; };
+		A5E1F4D327A08DA800A1B17D /* MainDisplayParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E1F4D127A08DA800A1B17D /* MainDisplayParameters.swift */; };
+		A5E1F4D427A08DA800A1B17D /* MainDisplayParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E1F4D127A08DA800A1B17D /* MainDisplayParameters.swift */; };
+		A5E1F4D527A08DA800A1B17D /* MainDisplayParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E1F4D127A08DA800A1B17D /* MainDisplayParameters.swift */; };
 		A5FA894C279DF776003457C2 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FA894B279DF776003457C2 /* Tests_iOS.swift */; };
 		A5FA894E279DF776003457C2 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FA894D279DF776003457C2 /* Tests_iOSLaunchTests.swift */; };
 		A5FA8958279DF776003457C2 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FA8957279DF776003457C2 /* Tests_macOS.swift */; };
@@ -37,6 +53,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A534178C279DF8730068AC55 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		A5341791279DF8C60068AC55 /* ValentineHeart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValentineHeart.swift; sourceTree = "<group>"; };
+		A5341796279DF9330068AC55 /* BoundingBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundingBox.swift; sourceTree = "<group>"; };
+		A5E1F4D127A08DA800A1B17D /* MainDisplayParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDisplayParameters.swift; sourceTree = "<group>"; };
 		A5FA8935279DF775003457C2 /* Valentine_s_DayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Valentine_s_DayApp.swift; sourceTree = "<group>"; };
 		A5FA8936279DF775003457C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A5FA8937279DF776003457C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -96,7 +116,11 @@
 			isa = PBXGroup;
 			children = (
 				A5FA8935279DF775003457C2 /* Valentine_s_DayApp.swift */,
+				A5E1F4D127A08DA800A1B17D /* MainDisplayParameters.swift */,
 				A5FA8936279DF775003457C2 /* ContentView.swift */,
+				A5341791279DF8C60068AC55 /* ValentineHeart.swift */,
+				A5341796279DF9330068AC55 /* BoundingBox.swift */,
+				A534178C279DF8730068AC55 /* DrawingView.swift */,
 				A5FA8937279DF776003457C2 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -289,6 +313,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5341797279DF9330068AC55 /* BoundingBox.swift in Sources */,
+				A5E1F4D227A08DA800A1B17D /* MainDisplayParameters.swift in Sources */,
+				A534178D279DF8740068AC55 /* DrawingView.swift in Sources */,
+				A5341792279DF8C60068AC55 /* ValentineHeart.swift in Sources */,
 				A5FA895D279DF776003457C2 /* ContentView.swift in Sources */,
 				A5FA895B279DF776003457C2 /* Valentine_s_DayApp.swift in Sources */,
 			);
@@ -298,6 +326,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5341798279DF9330068AC55 /* BoundingBox.swift in Sources */,
+				A5E1F4D327A08DA800A1B17D /* MainDisplayParameters.swift in Sources */,
+				A534178E279DF8740068AC55 /* DrawingView.swift in Sources */,
+				A5341793279DF8C60068AC55 /* ValentineHeart.swift in Sources */,
 				A5FA895E279DF776003457C2 /* ContentView.swift in Sources */,
 				A5FA895C279DF776003457C2 /* Valentine_s_DayApp.swift in Sources */,
 			);
@@ -307,6 +339,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5341799279DF9330068AC55 /* BoundingBox.swift in Sources */,
+				A5E1F4D427A08DA800A1B17D /* MainDisplayParameters.swift in Sources */,
+				A534178F279DF8740068AC55 /* DrawingView.swift in Sources */,
+				A5341794279DF8C60068AC55 /* ValentineHeart.swift in Sources */,
 				A5FA894E279DF776003457C2 /* Tests_iOSLaunchTests.swift in Sources */,
 				A5FA894C279DF776003457C2 /* Tests_iOS.swift in Sources */,
 			);
@@ -316,6 +352,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A534179A279DF9330068AC55 /* BoundingBox.swift in Sources */,
+				A5E1F4D527A08DA800A1B17D /* MainDisplayParameters.swift in Sources */,
+				A5341790279DF8740068AC55 /* DrawingView.swift in Sources */,
+				A5341795279DF8C60068AC55 /* ValentineHeart.swift in Sources */,
 				A5FA895A279DF776003457C2 /* Tests_macOSLaunchTests.swift in Sources */,
 				A5FA8958279DF776003457C2 /* Tests_macOS.swift in Sources */,
 			);
@@ -463,7 +503,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -493,7 +533,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -528,7 +568,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jtIIT.Valentine-s-Day";
 				PRODUCT_NAME = "Valentine's Day";
@@ -557,7 +597,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jtIIT.Valentine-s-Day";
 				PRODUCT_NAME = "Valentine's Day";
